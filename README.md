@@ -62,7 +62,7 @@ Each book has 15–16 chapters with Mermaid diagrams, editable Rust playgrounds,
 > # Install Rust via rustup if you don't have it yet:
 > # https://rustup.rs/
 >
-> cargo install mdbook mdbook-mermaid
+> cargo install mdbook@0.4.52 mdbook-mermaid@0.14.0
 > cargo xtask serve          # builds all books and opens a local server
 > ```
 
@@ -78,7 +78,7 @@ Each book has 15–16 chapters with Mermaid diagrams, editable Rust playgrounds,
 Install [Rust via **rustup**](https://rustup.rs/) if you haven't already, then:
 
 ```bash
-cargo install mdbook mdbook-mermaid
+cargo install mdbook@0.4.52 mdbook-mermaid@0.14.0
 ```
 
 ### Build & serve
